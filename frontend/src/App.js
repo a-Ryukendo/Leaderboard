@@ -27,7 +27,7 @@ const bgStyle = {
 
 
 // API base URL
-const url = 'http://localhost:4000'
+const url = process.env.REACT_APP_API_URL || 'http://localhost:4000'
 
 // App is the main component for the leaderboard system
 function App() {
